@@ -192,11 +192,27 @@
             "Dark theme: the home and orders tabs no longer show a stray cream panel behind the cards."
           ]
         }
+      ]
+    },
+    {
+      "version": "0.9.2",
+      "buildNumber": 13,
+      "channel": "production",
+      "runtimeVersion": "2",
+      "releasedAt": "2026-08-11T08:00:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "fixed",
+          "items": [
+            "Version chip no longer shows a misleading “· ota” tag — it just shows the version and build number."
+          ]
+        }
       ],
       "apk": {
-        "url": "https://github.com/slinnerb/boothpass-releases/releases/download/v0.9.1/boothpass-0.9.1.apk",
-        "sizeBytes": 69688072,
-        "sha256": "57b2656b79f3ae4640183257f71ddea85d0e80308ba78628f8af31f620858708"
+        "url": "https://github.com/slinnerb/boothpass-releases/releases/download/v0.9.2/boothpass-0.9.2.apk",
+        "sizeBytes": 69687836,
+        "sha256": "c53445eb3a93cc6894008cfa666a2e764074b97353a0600b74f84164ad242a85"
       }
     }
   ]
