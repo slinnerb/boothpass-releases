@@ -1,0 +1,171 @@
+{
+  "releases": [
+    {
+      "version": "0.1.0",
+      "buildNumber": 1,
+      "channel": "production",
+      "runtimeVersion": "1",
+      "releasedAt": "2026-08-09T22:05:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "added",
+          "items": [
+            "First BoothPass build: app shell, design tokens, and self-hosted auto-update."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "buildNumber": 2,
+      "channel": "production",
+      "runtimeVersion": "1",
+      "releasedAt": "2026-08-09T22:20:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "added",
+          "items": [
+            "First-launch intro screen.",
+            "Light (Berry Bazaar) and dark (Ember & Frost) themes — tap the moon to switch."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.2.1",
+      "buildNumber": 3,
+      "channel": "production",
+      "runtimeVersion": "1",
+      "releasedAt": "2026-08-09T22:45:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "changed",
+          "items": [
+            "Light background is now cloud white.",
+            "Intro polish and a version-chip fix."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "buildNumber": 4,
+      "channel": "production",
+      "runtimeVersion": "1",
+      "releasedAt": "2026-08-10T03:15:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "added",
+          "items": [
+            "Festival discovery: search festivals by name, city, or genre.",
+            "New food-truck app icon."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.4.0",
+      "buildNumber": 5,
+      "channel": "production",
+      "runtimeVersion": "1",
+      "releasedAt": "2026-08-11T00:20:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "added",
+          "items": [
+            "Browse booths: filter by category, sort by wait or rating.",
+            "Booth detail with the full menu."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.5.0",
+      "buildNumber": 6,
+      "channel": "production",
+      "runtimeVersion": "1",
+      "releasedAt": "2026-08-11T02:00:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "added",
+          "items": [
+            "Order end to end (test mode): cart, checkout, and a live pickup code."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.6.0",
+      "buildNumber": 7,
+      "channel": "production",
+      "runtimeVersion": "2",
+      "releasedAt": "2026-08-11T03:30:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "added",
+          "items": [
+            "Nearby festivals with distances — or type a city/ZIP if you deny location.",
+            "Festival detail page with a countdown, dates, and more."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.7.0",
+      "buildNumber": 8,
+      "channel": "production",
+      "runtimeVersion": "2",
+      "releasedAt": "2026-08-11T04:00:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "added",
+          "items": [
+            "Festival map: a Map/List toggle showing booths on a site map."
+          ]
+        },
+        {
+          "type": "changed",
+          "items": [
+            "Discovery only shows current and upcoming festivals now."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.8.0",
+      "buildNumber": 10,
+      "channel": "production",
+      "runtimeVersion": "2",
+      "releasedAt": "2026-08-11T05:00:00.000Z",
+      "mandatory": false,
+      "notes": [
+        {
+          "type": "added",
+          "items": [
+            "Updates now work anywhere, not just home Wi-Fi — the app checks a public release index.",
+            "Remove a festival you've added, from the home screen."
+          ]
+        },
+        {
+          "type": "fixed",
+          "items": [
+            "The “What’s changed” screen scrolls the full history and caches it for offline reading."
+          ]
+        }
+      ],
+      "apk": {
+        "url": "https://github.com/slinnerb/boothpass-releases/releases/download/v0.8.0/boothpass-0.8.0.apk",
+        "sizeBytes": 69687712,
+        "sha256": "bec816c5e6af5284fd180f2f7eaacf4a902324f652e70352b23f66e22308f13a"
+      }
+    }
+  ]
+}
